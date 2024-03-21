@@ -1,4 +1,4 @@
-#+TITLE: dwmblocks-distrotube
+#+TITLE: PintoDWMblocks
 
 * About Dwmblocks
 #+CAPTION: dwmblocks-distrotube
@@ -33,9 +33,9 @@ And, then:
 =sudo pacman -S dwmblocks-distrotube-git=
 
 * To get my dwmblocks to work for you...
-You will, of course, need my dwmblocks build and my scripts in [.local/bin](https://gitlab.com/dwt1/dotfiles/-/tree/master/.local/bin).  Make sure that .local/bin is in your $PATH otherwise you can't call those scripts by name which is what I'm doing in blocks.h.  Instead, you'd have to write out the full path to each script in the blocks.h.
+You will, of course, need my dwmblocks build and the scrpts in .local/bin.  Make sure that .local/bin is in your $PATH otherwise you can't call those scripts by name which is what I'm doing in blocks.h.  Instead, you'd have to write out the full path to each script in the blocks.h.
 
-To add .local/bin to $PATH, just add this line to your .bashrc:
+To add .local/bin to $PATH, just add this line to .bashrc:
 
 #+begin_example
 PATH="$HOME/.local/bin${PATH:+:${PATH}}"
