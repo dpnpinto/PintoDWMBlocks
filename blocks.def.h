@@ -11,7 +11,7 @@ static const Block blocks[] = {
 
 	{" 📢 ", "~/.config/scripts/volume",    0,		          10},
 
-	{" ⏰ ", "~/.config/scripts/clock",	  60,	              0},
+	{" 🗓️ ", "~/.config/scripts/clock",	  60,	              0},
 
 };
 
